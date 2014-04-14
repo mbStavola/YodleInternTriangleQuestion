@@ -50,8 +50,6 @@ public class TriangleSolver {
 					triangle.get(i)[j] += triangle.get(i+1)[j+1];
 				}
 			}
-			//Get rid of the bottom row
-			triangle.remove(triangle.size() - 1);
 		}
 		return triangle.get(0)[0];
 	}
